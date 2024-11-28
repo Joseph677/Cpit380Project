@@ -1,7 +1,7 @@
 import cv2
 import numpy as np
 
-img = cv2.imread("cr7.png")
+img = cv2.imread("images/cr7.png")
 img = cv2.resize(img, (0,0), fx=0.5, fy=0.5) # Use fx and fy to resize img
 
 # 1- Grayscale

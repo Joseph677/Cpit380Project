@@ -1,7 +1,7 @@
 # Import libraries
 import cv2
 
-img = cv2.imread("cr7.png")
+img = cv2.imread("images/cr7.png")
 img = cv2.resize(img, (0,0), fx=0.6, fy=0.6)
 
 gray_img = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
